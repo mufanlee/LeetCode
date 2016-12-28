@@ -2,7 +2,7 @@
 
 _**Difficulty: Easy**_
 
-_[Problem](https://leetcode.com/problems/two-sum/)_
+## _[Problem](https://leetcode.com/problems/two-sum/)_
 
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 
@@ -15,6 +15,8 @@ Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 UPDATE (2016/2/13):
 The return format had been changed to zero-based indices. Please read the above updated description carefully.
+
+## Solution
 
 ```c++
 #include <iostream>
