@@ -8,5 +8,5 @@ LeetCode OJ Problems
 - [Longest Palindromic Substring](Longest-Palindromic-Substring.md)
 - [ZigZag Conversion](ZigZag-Conversion.md)
 - [Reverse Integer](Reverse-Integer.md)
-- [String to Integer (atoi)](String-to-Integer(atoi))
+- [String to Integer (atoi)](String-to-Integer(atoi).md)
 - [Palindrome Number](Palindrome-Number.md)
