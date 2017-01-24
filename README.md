@@ -10,3 +10,4 @@ LeetCode OJ Problems
 - [Reverse Integer](Reverse-Integer.md)
 - [String to Integer (atoi)](String-to-Integer(atoi).md)
 - [Palindrome Number](Palindrome-Number.md)
+- [Roman to Integer](Roman-to-Integer.md)
