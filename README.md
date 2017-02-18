@@ -14,3 +14,4 @@ LeetCode OJ Problems
 - [Longest Common Prefix](Longest-Common-Prefix.md)
 - [Valid Parentheses](Valid-Parentheses.md)
 - [Merge Two Sorted Lists](Merge-Two-Sorted-Lists.md)
+- [Remove Duplicates from Sorted Array](Remove-Duplicates-from-Sorted-Array.md)
