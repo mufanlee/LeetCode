@@ -17,3 +17,5 @@ LeetCode OJ Problems
 - [Remove Duplicates from Sorted Array](Remove-Duplicates-from-Sorted-Array.md)
 - [Remove Element](Remove-Element.md)
 - [Implement strStr()](Implement-strStr().md)
+- [Search Insert Position](Search-Insert-Position.md)
+- [Count and Say](Count-and-Say.md)
