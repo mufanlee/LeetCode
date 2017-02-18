@@ -12,3 +12,4 @@ LeetCode OJ Problems
 - [Palindrome Number](Palindrome-Number.md)
 - [Roman to Integer](Roman-to-Integer.md)
 - [Longest Common Prefix](Longest-Common-Prefix.md)
+- [Valid Parentheses](Valid-Parentheses.md)

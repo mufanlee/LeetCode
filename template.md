@@ -13,4 +13,4 @@ _**Difficulty: **_
 
 ## Error
 
-[Editorial Solution](https://leetcode.com/articles/longest-common-prefix/)
+[Editorial Solution]()
