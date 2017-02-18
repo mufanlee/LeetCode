@@ -15,3 +15,5 @@ LeetCode OJ Problems
 - [Valid Parentheses](Valid-Parentheses.md)
 - [Merge Two Sorted Lists](Merge-Two-Sorted-Lists.md)
 - [Remove Duplicates from Sorted Array](Remove-Duplicates-from-Sorted-Array.md)
+- [Remove Element](Remove-Element.md)
+- [Implement strStr()](Implement-strStr().md)
