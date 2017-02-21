@@ -9,6 +9,7 @@ Input is guaranteed to be within the range from 1 to 3999.
 
 ## Approach
 > 1.将所有的情况列出来，直接按位查表。
+
 > 2.贪心算法，建立一个数表，每次通过查表找出当前最大的数，减去该数再继续查表。
 
 ## Solution
