@@ -10,6 +10,7 @@ P   A   H   N
 A P L S I I G
 
 Y   I   R
+
 And then read line by line: "PAHNAPLSIIGYIR"
 
 Write the code that will take a string and make this conversion given a number of rows:
@@ -21,8 +22,7 @@ convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
 ## Approach
 >1.沿着对勾的周期，循环添加到数组中，先是竖着numRows个，接着斜着numRows-2个。最后合并起来。
 
->2.找规律，发现所有行的周期为2*numRows-2，
-对于首行和末行之间的行，还要额外重复一次，重复的这次距离本周期起始字符的距离是2*numRows-2-2*i。
+>2.找规律，发现所有行的周期为2\*numRows-2，对于首行和末行之间的行，还要额外重复一次，重复的这次距离本周期起始字符的距离是2\*numRows-2-2\*i。
 
 ## Solution
 ```c++
