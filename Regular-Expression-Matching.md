@@ -6,20 +6,29 @@ _**Difficulty: Hard**_
 Implement regular expression matching with support for '.' and '*'.
 
 >'.' Matches any single character.
+
 >'*' Matches zero or more of the preceding element.
 
 >The matching should cover the entire input string (not partial).
 
 >The function prototype should be:
+
 >bool isMatch(const char *s, const char *p)
 
 >Some examples:
+
 >isMatch("aa","a") → false
+
 >isMatch("aa","aa") → true
+
 >isMatch("aaa","aa") → false
+
 >isMatch("aa", "a*") → true
+
 >isMatch("aa", ".*") → true
+
 >isMatch("ab", ".*") → true
+
 >isMatch("aab", "c*a*b") → true
 
 ## Approach
@@ -43,10 +52,11 @@ dp[i][j]表示字符串s[0,i-1]与匹配串p[0,j-1]是否匹配，dp[i+1][j+1]�
 有没有'\*'，因为'\*'能匹配空串，例如'a*'能匹配空串。
 
 dp[i+1][j+1]：
-1.简单的情况，p[j]!='*'，如果s[i]==p[j]||p[j]=='.'，意味着我们要检查s[0,i-1]是否匹配p[0,j-1]，
+
+1).简单的情况，p[j]!='*'，如果s[i]==p[j]||p[j]=='.'，意味着我们要检查s[0,i-1]是否匹配p[0,j-1]，
 dp[i+1][j+1]=dp[i][j]，即dp[i+1][j+1]=(s[i]==p[j]||p[j]=='.')&&dp[i][j]。
 
-2.复杂的情况，p[j]=='*'，意味着我们要去检查掩码，掩码可能重复字符0到多次。
+2).复杂的情况，p[j]=='*'，意味着我们要去检查掩码，掩码可能重复字符0到多次。
 
 如果重复0次，意味着之前的字符匹配一个空串，dp[i+1][j+1]=dp[i+1][j-1]。（现在看的是i的情况，这种情况取决于s[0，i]与p[0，j-2]匹配）
 
@@ -54,7 +64,7 @@ dp[i+1][j+1]=dp[i][j]，即dp[i+1][j+1]=(s[i]==p[j]||p[j]=='.')&&dp[i][j]。
 
 如果重复多次，dp[i+1][j+1]=dp[i][j+1]&&(s[i]==p[j-1]||p[j-1]=='.')。（p[j-1]是被重复的字符，这种情况取决于p[j-1]和s[i]比较，s[0,i-1]与p[j]匹配。）
 
-3.其他情况，为false。
+3).其他情况，为false。
 
 ## Solution
 ```c++
@@ -145,5 +155,7 @@ int main()
 
 #Editorial Solution
 http://blog.csdn.net/fzzying3/article/details/42057935
+
 http://blog.csdn.net/u014265088/article/details/52574639
+
 http://blog.csdn.net/linhuanmars/article/details/21145563
