@@ -10,6 +10,7 @@ LeetCode OJ Problems
 - [Reverse Integer](Reverse-Integer.md)
 - [String to Integer (atoi)](String-to-Integer(atoi).md)
 - [Palindrome Number](Palindrome-Number.md)
+- [Regular Expression Matching](Regular-Expression-Matching.md)
 - [Integer to Roman](Integer-to-Roman.md)
 - [Roman to Integer](Roman-to-Integer.md)
 - [Longest Common Prefix](Longest-Common-Prefix.md)
