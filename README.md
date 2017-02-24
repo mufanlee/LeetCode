@@ -15,6 +15,7 @@ LeetCode OJ Problems
 - [Integer to Roman](Integer-to-Roman.md)
 - [Roman to Integer](Roman-to-Integer.md)
 - [Longest Common Prefix](Longest-Common-Prefix.md)
+- [3Sum](3Sum.md)
 - [Valid Parentheses](Valid-Parentheses.md)
 - [Merge Two Sorted Lists](Merge-Two-Sorted-Lists.md)
 - [Remove Duplicates from Sorted Array](Remove-Duplicates-from-Sorted-Array.md)
