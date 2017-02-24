@@ -16,6 +16,7 @@ LeetCode OJ Problems
 - [Roman to Integer](13 Roman-to-Integer.md)
 - [Longest Common Prefix](14 Longest-Common-Prefix.md)
 - [3Sum](15 3Sum.md)
+- [3Sum Closest](16 3Sum-Closest.md)
 - [Valid Parentheses](20 Valid-Parentheses.md)
 - [Merge Two Sorted Lists](21 Merge-Two-Sorted-Lists.md)
 - [Remove Duplicates from Sorted Array](26 Remove-Duplicates-from-Sorted-Array.md)
@@ -23,3 +24,4 @@ LeetCode OJ Problems
 - [Implement strStr()](28 Implement-strStr().md)
 - [Search Insert Position](35 Search-Insert-Position.md)
 - [Count and Say](38 Count-and-Say.md)
+- [3Sum Smaller](259 3Sum Smaller.md)
