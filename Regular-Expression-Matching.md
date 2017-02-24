@@ -9,11 +9,14 @@ Implement regular expression matching with support for '.' and '*'.
 
 >'*' Matches zero or more of the preceding element.
 
+
 >The matching should cover the entire input string (not partial).
+
 
 >The function prototype should be:
 
 >bool isMatch(const char *s, const char *p)
+
 
 >Some examples:
 
@@ -29,7 +32,7 @@ Implement regular expression matching with support for '.' and '*'.
 
 >isMatch("ab", ".*") → true
 
->isMatch("aab", "c*a*b") → true
+>isMatch("aab", "c\*a\*b") → true
 
 ## Approach
 >1.递归。
