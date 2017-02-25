@@ -24,4 +24,5 @@ LeetCode OJ Problems
 - [Implement strStr()](28 Implement-strStr().md)
 - [Search Insert Position](35 Search-Insert-Position.md)
 - [Count and Say](38 Count-and-Say.md)
+- [Maximum Subarray](53 Maximum-Subarray.md)
 - [3Sum Smaller](259 3Sum Smaller.md)
