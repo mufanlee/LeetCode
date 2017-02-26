@@ -25,4 +25,6 @@ LeetCode OJ Problems
 - [Search Insert Position](35 Search-Insert-Position.md)
 - [Count and Say](38 Count-and-Say.md)
 - [Maximum Subarray](53 Maximum-Subarray.md)
+- [Length of Last World](58 Length-of-Last-World.md)
+- [Plus One](66 Plus-One.md)
 - [3Sum Smaller](259 3Sum Smaller.md)
