@@ -28,4 +28,7 @@ LeetCode OJ Problems
 - [Length of Last Word](58 Length-of-Last-Word.md)
 - [Plus One](66 Plus-One.md)
 - [Add Binary](67 Add-Binary.md)
+- [Climbing Stairs](70 Climbing-Stairs.md)
+- [Remove Duplicates from Sorted List](83 Remove-Duplicates-from-Sorted-List.md)
+- [Merge Sorted Array](88 Merge-Sorted-Array.md)
 - [3Sum Smaller](259 3Sum Smaller.md)
