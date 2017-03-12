@@ -34,4 +34,5 @@ LeetCode OJ Problems
 - [Merge Sorted Array](88 Merge-Sorted-Array.md)
 - [Same Tree](100 Same-Tree.md)
 - [Maximum Depth of Binary Tree](104 Maximum-Depth-of-Binary-Tree.md)
+- [Single Number](136 Single-Number.md)
 - [3Sum Smaller](259 3Sum Smaller.md)
