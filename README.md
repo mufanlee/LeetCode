@@ -33,4 +33,5 @@ LeetCode OJ Problems
 - [Remove Duplicates from Sorted List](83 Remove-Duplicates-from-Sorted-List.md)
 - [Merge Sorted Array](88 Merge-Sorted-Array.md)
 - [Same Tree](100 Same-Tree.md)
+- [Maximum Depth of Binary Tree](104 Maximum-Depth-of-Binary-Tree.md)
 - [3Sum Smaller](259 3Sum Smaller.md)
