@@ -17,9 +17,7 @@ Can you solve it without using extra space?
     - 慢的指针相遇前走了L1+L2
     - 快的指针相遇前走了L1+L2+n*C
 因为快的指针的速度是慢的指针的两倍，则距离也是慢的指针的两倍，因此
-
 2 * (L1 + L2) = L1 + L2 + n * C    ==>  L1 + L2 = n * C  ==> L1 = (n - 1) * C + (C - L2)
-
 L1 = C - L2，即头指针到相遇位置的距离等于环中相遇位置到环起始位置的距离。
 
 ## Solution

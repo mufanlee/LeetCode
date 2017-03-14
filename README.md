@@ -1,7 +1,7 @@
 # LeetCode
 LeetCode OJ Problems
 
-1. [Two Sum](1 Two-Sum.md)
+- [Two Sum](1 Two-Sum.md)
 - [Add Two Numbers](2 Add-Two-Numbers.md)
 - [Longest Substring Without Repeating Characters](3 Longest-Substring-Without-Repeating-Characters.md)
 - [Median of Two Sorted Arrays](4 Median-of-Two-Sorted-Arrays.md)
