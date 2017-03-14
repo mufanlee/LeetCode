@@ -3,6 +3,12 @@
 _**Difficulty: Medium**_
 
 ## _[Problem](https://leetcode.com/problems/linked-list-cycle-ii/#/description)_
+Given a linked list, return the node where the cycle begins. If there is no cycle, return null.
+
+Note: Do not modify the linked list.
+
+Follow up:
+Can you solve it without using extra space?
 
 ## Approach
 >1.顺序遍历链表，并用一个Set存储遍历过的元素，将当前元素与Set中的元素比较，如果相等，则找到环，并且这个元素为环的起始点。时间复杂度为O(n)，但空间复杂度也为O(n)。
@@ -12,9 +18,9 @@ _**Difficulty: Medium**_
     - 快的指针相遇前走了L1+L2+n*C
 因为快的指针的速度是慢的指针的两倍，则距离也是慢的指针的两倍，因此
 
-> 2 * (L1 + L2) = L1 + L2 + n * C    ==>  L1 + L2 = n * C  ==> L1 = (n - 1) * C + (C - L2)
+2 * (L1 + L2) = L1 + L2 + n * C    ==>  L1 + L2 = n * C  ==> L1 = (n - 1) * C + (C - L2)
 
-> L1 = C - L2，即头指针到相遇位置的距离等于环中相遇位置到环起始位置的距离。
+L1 = C - L2，即头指针到相遇位置的距离等于环中相遇位置到环起始位置的距离。
 
 ## Solution
 ```c++
