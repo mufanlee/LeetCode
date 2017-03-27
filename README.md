@@ -38,3 +38,6 @@ LeetCode OJ Problems
 - [Linked List Cycle](141.Linked-List-Cycle.md)
 - [Linked List Cycle II](142.Linked-List-Cycle-II.md)
 - [3Sum Smaller](259.3Sum-Smaller.md)
+- [Perfect Number](507.Perfect-Number.md)
+- [Complex Number Multiplication](537.Complex-Number-Multiplication.md)
+- [Boundary of Binary Tree](545.Boundary-of-Binary-Tree.md)
