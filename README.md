@@ -41,3 +41,5 @@ LeetCode OJ Problems
 - [Perfect Number](507.Perfect-Number.md)
 - [Complex Number Multiplication](537.Complex-Number-Multiplication.md)
 - [Boundary of Binary Tree](545.Boundary-of-Binary-Tree.md)
+- [Longest Uncommon Subsequence I](521.Longest Uncommon Subsequence I.md)
+- [Longest Uncommon Subsequence II](522.Longest Uncommon Subsequence II.md)
